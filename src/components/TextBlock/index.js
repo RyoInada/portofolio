@@ -45,7 +45,7 @@ const Circle = styled.span`
 `;
 
 const Title = styled.div`
-  font-size: calc(1rem + 1vw);
+  font-size: calc(.5rem + 1vw);
   line-height: 1.2;
   padding: 0.5rem 0;
   @media only Screen and (max-width: 48em) {
