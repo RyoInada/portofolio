@@ -1,7 +1,6 @@
-import React, { lazy } from "react";
+import React from "react";
 import styled from "styled-components";
 
-import Slider from "react-slick";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import TextBlock from "../../components/TextBlock";
@@ -42,38 +41,6 @@ const Title = styled.h1`
 	}
 `;
 
-const Carousal = styled.div`
-	width: 50vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	@media only Screen and (max-width: 40em) {
-		width: 90vw;
-		.slick-slider .slick-arrow {
-			display: none;
-		}
-	}
-	.slick-slider .slick-arrow:before {
-		color: #0a0b10;
-		font-size: 1.5rem;
-		@media only Screen and (max-width: 40em) {
-			display: none;
-		}
-	}
-	.slick-slider .slick-dots button:before {
-		color: #0a0b10;
-		font-size: 1.5rem;
-	}
-	.slick-slide.slick-active {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		margin: 0;
-		padding: 0;
-		margin-bottom: 3rem;
-	}
-`;
 
 const Works = () => {
 	// const settings = {
