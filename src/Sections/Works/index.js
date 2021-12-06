@@ -6,6 +6,7 @@ import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import TextBlock from "../../components/TextBlock";
 import SiteBlock from "../../components/SiteBlock";
 import PourVous from "../../assets/pv.jpg";
+import zokujin from "../../assets/zokujin.png";
 
 // const Card = lazy(() => import("../../components/Card/index"));
 // const SiteBlock = lazy(() => import("../../components/SiteBlock/index"));
@@ -60,6 +61,30 @@ const Works = () => {
 					title={<h1>様々なサイト製作実績があります。</h1>}
 					subText={<h5>We've made several Web sites.</h5>}
 				/>
+			<SiteBlock
+				siteUrl={"https://zokujin.com/"}
+				siteName={"Zokujin"}
+				siteImg={zokujin}
+				Cms={"WordPress"}
+				Languages={"HTML/Sass/JavaScript/PHP"}
+				Frameworks={"None"}
+				/>
+			{/* <SiteBlock
+				siteUrl={"https://www.rakuten.ne.jp/gold/auc-pourvous/"}
+				siteName={"DELUJO"}
+				siteImg={PourVous}
+				Cms={"None"}
+				Languages={"HTML/CSS/JavaScript/PHP"}
+				Frameworks={"None"}
+				/> */}
+			{/* <SiteBlock
+				siteUrl={"https://www.rakuten.ne.jp/gold/auc-pourvous/"}
+				siteName={"Etin"}
+				siteImg={PourVous}
+				Cms={"Shopify"}
+				Languages={"HTML/CSS/liquid"}
+				Frameworks={"None"}
+				/> */}
 			<SiteBlock
 				siteUrl={"https://www.rakuten.ne.jp/gold/auc-pourvous/"}
 				siteName={"PourVous"}
