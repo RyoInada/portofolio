@@ -6,6 +6,7 @@ import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import TextBlock from "../../components/TextBlock";
 import SiteBlock from "../../components/SiteBlock";
 import PourVous from "../../assets/pv.jpg";
+import zokujin from "../../assets/zokujin.png";
 
 // const Card = lazy(() => import("../../components/Card/index"));
 // const SiteBlock = lazy(() => import("../../components/SiteBlock/index"));
@@ -63,7 +64,7 @@ const Works = () => {
 			<SiteBlock
 				siteUrl={"https://zokujin.com/"}
 				siteName={"Zokujin"}
-				siteImg={PourVous}
+				siteImg={zokujin}
 				Cms={"WordPress"}
 				Languages={"HTML/Sass/JavaScript/PHP"}
 				Frameworks={"None"}
