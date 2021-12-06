@@ -61,6 +61,30 @@ const Works = () => {
 					subText={<h5>We've made several Web sites.</h5>}
 				/>
 			<SiteBlock
+				siteUrl={"https://zokujin.com/"}
+				siteName={"Zokujin"}
+				siteImg={PourVous}
+				Cms={"WordPress"}
+				Languages={"HTML/Sass/JavaScript/PHP"}
+				Frameworks={"None"}
+				/>
+			{/* <SiteBlock
+				siteUrl={"https://www.rakuten.ne.jp/gold/auc-pourvous/"}
+				siteName={"DELUJO"}
+				siteImg={PourVous}
+				Cms={"None"}
+				Languages={"HTML/CSS/JavaScript/PHP"}
+				Frameworks={"None"}
+				/> */}
+			{/* <SiteBlock
+				siteUrl={"https://www.rakuten.ne.jp/gold/auc-pourvous/"}
+				siteName={"Etin"}
+				siteImg={PourVous}
+				Cms={"Shopify"}
+				Languages={"HTML/CSS/liquid"}
+				Frameworks={"None"}
+				/> */}
+			<SiteBlock
 				siteUrl={"https://www.rakuten.ne.jp/gold/auc-pourvous/"}
 				siteName={"PourVous"}
 				siteImg={PourVous}
